@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 100%;
+    background: #f3c5bd;
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 18%, #ea2803 46%, #ff6600 76%, #c72200 100%);
+    background: -webkit-linear-gradient(top, #f3c5bd 0%, #e86c57 18%, #ea2803 46%, #ff6600 76%, #c72200 100%);
+    background: linear-gradient(to bottom, #f3c5bd 0%, #e86c57 18%, #ea2803 46%, #ff6600 76%, #c72200 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portada {
+    margin-bottom: 40px;
+}
+
+.boton1 {
+    background-color: rgb(235, 235, 10);
+    margin: 70PX;
+    padding: 10px 60px;
+    color: rgba(128, 1, 195, 1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.boton1 :hover {
+    background-color: #ffffff;
+}
+
+.boton2 {
+    background-color: rgb(235, 235, 10);
+    margin: 70px;
+    padding: 10px 60px;
+    color: rgba(128, 1, 195, 1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.boton2 :hover {
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lista-producto {
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-producto li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media(min-width: 768px) {
+    .lista-producto li {
+        width: 33.3%;
+    }
+}
+
+.lista-producto li img {
+    border: 10px solid rgba(128, 1, 195, .45);
+    transition: border-color .3s ease-in-out;
+}
+
+.lista-producto li img:hover {
+    border: 10px solid rgba(128, 1, 195, 1);
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 30px;
+    color: yellow;
+}
+
+.boton {
+    background-color: rgb(235, 235, 10);
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 0 auto;
+    color: rgba(128, 1, 195, 1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.boton:hover {
+    background-color: rgb(223, 226, 194);
+}
